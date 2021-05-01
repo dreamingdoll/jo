@@ -91,6 +91,26 @@ print(year-1)
 aircon= 45854
 print(f"{aircon * 36}원")
 
+# 문제 21
+letters = "python"
+print(letters[0], letters[2])
+
+# 문제 22
+license_plate = "24가 2210"
+print(license_plate[4:])
+
+# 문제 23
+string = "홀짝홀짝홀짝"
+print(string[::2])
+
+# 문제 24
+string = "PYTHON"
+print(string[::-1])
+
+# 문제 25
+phone_number = "010-1111-2222"
+phone_number = phone_number.replace("-", " ")
+print(phone_number)
 
 
 
