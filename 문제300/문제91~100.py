@@ -49,3 +49,4 @@ close_table = dict(zip(date, close_price))
 
 print(close_table)
 
+
