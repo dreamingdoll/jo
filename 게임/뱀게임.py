@@ -4,7 +4,7 @@ import random
 import sys
 
 import pygame # 파이게임 파일 불러오기
-from pygame.locals import QUIT, Rect, KEYDOWN, K_UP, K_LEFT, K_RIGHT, K_DOWN
+from pygame.locals import QUIT, Rect, KEYDOWN, K_UP, K_LEFT, K_RIGHT, K_DOWN, K_SPACE
 #                        종료/ 그리기/ 키눌렀을떄/ 위키/ 왼쪽키/ 오른쪽키/ 아래키
 
 # 2. 게임에 필요힌 기본 설정
@@ -128,7 +128,6 @@ while True: # 계속 반복하기
 
 
         점수판 = my글꼴.render("전체 먹은 횟수 : " + str(점수), True, (255, 255, 255))
-
         속도 = 점수 // 10
 
 
