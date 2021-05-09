@@ -1,0 +1,62 @@
+
+# 문제 111
+a = input("입력 : ")
+print(a)
+
+# 문제 112
+b = int(input("입력 : "))
+print(b + 10)
+
+# 문제 113
+c = int(input("입력 : "))
+if c > 0 and c % 2 == 0:
+    print("짝수")
+
+elif c == 0:
+    print("홀수도, 짝수도 아니다")
+
+else:
+    print("홀수")
+
+# 문제 114
+d = int(input("입력 : "))
+if d + 20 > 255:
+    print(255)
+else:
+    print(d + 20)
+
+# 문제 115
+e = int(input("입력 : "))
+if e - 20 > 255:
+    print(255)
+
+elif e - 20 < 0:
+    print(0)
+
+else:
+    print(e - 20)
+
+# 문제 116
+f = input("현재 시간입력, 형식 => [00:00] : ")
+if f[3:] == "00":
+    print("정각입니다")
+
+if f[3:] != "00":
+    print("정각이 아닙니다")
+
+# 문제 117
+fruit = ["사과", "포도", "홍시"]
+g = input("좋아하는 과일은? : ")
+if g in fruit:
+    print("정답입니다")
+else:
+    print("오답입니다")
+
+# 문제 118
+
+
+# 문제 119
+
+
+# 문제 120
+
