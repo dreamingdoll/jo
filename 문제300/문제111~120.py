@@ -53,10 +53,29 @@ else:
     print("오답입니다")
 
 # 문제 118
+warn_investment_list = ["Microsoft", "Gppgle", "Naver", "Kakao", "SAMSUNG", "LG"]
 
+g = input("투자종목 : ")
+if g in warn_investment_list:
+    print("투자 경고 종목입니다")
+else:
+    print("투자 경고 종목이 아닙니다")
 
 # 문제 119
+fruit = {"봄": "딸기", "여름": "토마토", "가을": "사과"}
 
+g = input("좋아하는 계절은? : ")
+if g in fruit.keys():
+    print("정답입니다")
+else:
+    print("오답입니다")
 
 # 문제 120
+fruit = {"봄": "딸기", "여름": "토마토", "가을": "사과"}
+
+g = input("좋아하는 과일은? : ")
+if g in fruit.values():
+    print("정답입니다")
+else:
+    print("오답입니다")
 
