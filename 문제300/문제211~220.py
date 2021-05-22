@@ -43,6 +43,8 @@ def print_artimetic_operation(a, b):
     print(a * b)
     print(a / b)
 
+
 # 문제 220
 def print_max(a, b, c):
     print(max(a, b, c))
+
