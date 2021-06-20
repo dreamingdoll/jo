@@ -1,21 +1,21 @@
 def func_a(scores, score):
     rank = 1 # 순위
-    for s in scores:
+    for s in scores: # 전체 점수를 하나씩 대입
         if s == score: # scores 리스트의 원소중 score(n번 학생의 점수)와 같은것을 찾으면
             return rank # 순위 리턴
-        rank += 1 # 순위 + 1
+        rank += 1 # 순위를 내리기
     return 0
 
 def func_b(arr):
-    arr.sort(reverse=True) # 리스트 내림차순 정렬
+    arr.sort(reverse=True) # 리스트.sort(reverse=True) : 내림차순 정렬
 
 def func_c(arr, n):
     return arr[n] # n번 학생이 해당하는 점수 리턴
 
 def solution(scores, n):
-    score = func_c(scores, n) # func_c의 결과를 score 변수에 저장
-    func_b(scores) # func_b 실행
-    answer = func_a(scores, score) # func_a의 결과를 answer 변수에 저장
+    score = func_c(scores, n) # func_c 실행 : n번 학생이 해당하는 점수 구하기
+    func_b(scores) # func_b 실행 : 리스트 내림차순 정렬
+    answer = func_a(scores, score) # func_a 실행 : 순위 구하기
     return answer
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.
